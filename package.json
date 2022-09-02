@@ -1,0 +1,25 @@
+{
+  "name": "pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "evan",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.1",
+    "inquirer-autocomplete-prompt": "^2.0.0"
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "inquirer-autocomplete-prompt": {
+        "dependencies": {
+          "inquirer": "^8.0.0"
+        }
+      }
+    }
+  }
+}
